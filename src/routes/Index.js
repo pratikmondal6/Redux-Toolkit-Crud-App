@@ -14,7 +14,7 @@ export default function Index() {
         <BrowserRouter>
             <Navbar/>
             <Routes>
-                <Route path="/" element={<div className="container"><Home /></div>} />
+                <Route path="/" element={<div className="container"><BooksView />/></div>} />
                 <Route path="/show-books" element={<div className="container"><BooksView /></div>} />
                 <Route path="/add-book" element={<div className="container"><AddBook /></div>} />
                 <Route path="/edit-book" element={<div className="container"><EditBook /></div>} />
